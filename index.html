@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login View</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="main-container container">
+        <div class="left"></div>
+        <div class="right">
+          <div class="right-container">
+            <div class="login-intro">
+              <p class="login-intro-text">Welcome back</p>
+              <h1 class="login-intro-title">Login to your account</h1>
+            </div>
+            <form
+              class="global-form"
+              action="https://echo.htmlacademy.ru"
+              method="GET"
+            >
+              <div class="label-input-wrapper">
+                <label class="label" for="email">Email</label>
+                <input
+                  class="input"
+                  id="email"
+                  type="email"
+                  placeholder="John.snow@gmail.com"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="label-input-wrapper">
+                <label class="label" for="password">password</label>
+                <input
+                  class="input"
+                  id="password"
+                  type="password"
+                  placeholder="*********"
+                  name="password"
+                  required
+                />
+              </div>
+              <div class="option-wrapper">
+                <div>
+                  <input id="remember" type="checkbox" value="Remember" />
+                  <label for="remember-me"> Remember me</label>
+                </div>
+                <a class="option-link" href="#">Forget password</a>
+              </div>
+              <div class="buttons-wrapper">
+                <button class="green-btn btn" href="#">Login now</button>
+                <button class="dark-btn btn" href="#">
+                  <img
+                    class="btn-icon"
+                    src="./images/iconfinder_Google_1298745 1.svg"
+                    alt=""
+                    width="20"
+                    height="20"
+                  />
+                  Or sign-in with google
+                </button>
+              </div>
+            </form>
+            <p class="join-tex">
+              Dont have an account?
+              <a class="join-link" href="#">Join free today</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
